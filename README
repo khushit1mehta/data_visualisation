@@ -1,0 +1,65 @@
+# data_visualisation
+This project is made in Jupyter Notebook 
+
+Part 1
+
+Data Visualisation on covid vaccines till oct.2021
+
+The Immune System—the Body’s Defense Against Infection
+To understand how COVID-19 vaccines work, it helps to first look at how our bodies fight illness. When germs, such as the virus that causes COVID-19,
+invade our bodies, they attack and multiply. 
+This invasion, called an infection, is what causes illness. 
+Our immune system uses several tools to fight infection.
+Blood contains red cells, which carry oxygen to tissues and organs, and white or immune cells, which fight infection.
+Different types of white blood cells fight infection in different ways:
+~INDEX
+Importing Libraries
+Loading And Reading Data
+Data Cleaning
+Aanlyze Data
+
+Libraries used :
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
+import warnings
+warnings.filterwarnings('ignore')
+from random import randint 
+
+SnapShots of results
+![image](https://user-images.githubusercontent.com/69759264/167361155-063c6288-449d-41cf-83bc-ae573bd93d03.png)
+![image](https://user-images.githubusercontent.com/69759264/167361218-bfe42f43-b663-40e8-a9ca-14c95c2b2975.png)
+![image](https://user-images.githubusercontent.com/69759264/167363575-be66f812-a766-4f68-b9ef-beadd8fd0360.png)
+
+
+
+Part 2
+
+XGBR vs LINEAR REGRESSION ON BOSTON DATASET
+
+About : Boston is a dataset containing prices of variouis houses based on various different parameters.
+I have used to Algorithms to check which performs the best in finding the nearest correct price
+
+Libraries used:
+from sklearn import model_selection
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt 
+import numpy as np
+from sklearn import datasets 
+import pandas as pd
+import xgboost as xgb
+from sklearn.model_selection import cross_val_score, KFold
+from sklearn.metrics import mean_squared_error
+from sklearn import datasets
+
+SnapShots of results
+![image](https://user-images.githubusercontent.com/69759264/167363850-eac4dfff-348e-4374-b135-ffa8f6ba6d53.png)
+![image](https://user-images.githubusercontent.com/69759264/167364031-44176fa8-528d-435a-9321-48ecc0431c0f.png)
+![image](https://user-images.githubusercontent.com/69759264/167364069-7e1c642c-9cee-4044-85dd-13c6841fa7c5.png)
+
+Thankyou
+
+
